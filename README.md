@@ -1,4 +1,4 @@
-# 🚗 Vehicle Loan Risk Command Center
+# 🚗 FinGuard: Vehicle Loan Risk Intelligence
 ### **End-to-End Fintech Analytics Project**
 
 ---

@@ -5,6 +5,7 @@
 
 ## 📺 Project Demo
 > **[ACTION REQUIRED]**: To make this look professional, record a 30-second video of you clicking the slicers and the Reset button. Drag that video file here in the GitHub editor, and it will replace this text with a video player.
+Project Demo/Demo.mp4
 
 ---
 

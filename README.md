@@ -12,6 +12,17 @@ Project Demo/Demo.mp4
 ## 📌 Executive Summary
 This project analyzes **67,000+ vehicle loan records** to identify high-risk borrower segments and quantify potential financial loss. By integrating **Python** for data engineering, **PostgreSQL** for data warehousing, and **Power BI** for executive reporting, I developed a dynamic risk engine that identifies "Danger Zones" where default probability exceeds 10%.
 
+## ⚙️ The Data Pipeline
+This project follows a professional **ETL (Extract, Transform, Load)** workflow:
+
+1.  **Extraction & Engineering (Python/Pandas):** * Performed Data Cleaning on the raw 67k+ records.
+    * Handled missing values in critical columns like `dti` and `revol_util`.
+    * Conducted Exploratory Data Analysis (EDA) using **Matplotlib** and **Seaborn** to find correlations between Interest Rates and Default probability.
+2.  **Data Warehousing (PostgreSQL):** * Exported the cleaned data into a relational database.
+    * Created an optimized **SQL View** (`risk_dashboard_view`) to pre-calculate loan volumes and average rates for faster Power BI performance.
+3.  **Visualization & Modeling (Power BI):** * Developed complex **DAX measures** for dynamic risk assessment.
+    * Designed an interactive UI to visualize "Danger Zones" across different borrower segments.
+
 ---
 
 ## 🛠️ The Technical Stack
